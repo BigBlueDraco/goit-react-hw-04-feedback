@@ -7,7 +7,7 @@ export const Statistics = ({ good, neutral, bad, percentage }) => {
   return (
     <>
       <>
-        {good + neutral + bad != 0 ? (
+        {good + neutral + bad !== 0 ? (
           <>
             <div className={s.statisticWrap}>
               <StatisticItem name="good" value={good} />
